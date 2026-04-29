@@ -124,6 +124,13 @@ Vocabulary entries can be filtered by CEFR level and part of speech:
 /api/vocabulary/?cefr=B1&pos=noun
 ```
 
+Vocabulary entries can be searched by headword:
+
+```text
+/api/vocabulary/?search=abandon
+/api/vocabulary/?search=well
+```
+
 ## Example Response
 
 ```json
