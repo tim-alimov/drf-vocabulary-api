@@ -131,6 +131,16 @@ Vocabulary entries can be searched by headword:
 /api/vocabulary/?search=well
 ```
 
+## API Documentation
+
+Generated API documentation is available through drf-spectacular:
+
+| Endpoint | Description |
+| --- | --- |
+| `/api/schema/` | OpenAPI schema |
+| `/api/docs/` | Swagger UI |
+| `/api/redoc/` | ReDoc documentation |
+
 ## Example Response
 
 ```json

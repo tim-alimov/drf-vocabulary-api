@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "rest_framework",
     "django_filters",
+    "drf_spectacular",
     "apps.vocabulary",
 ]
 
@@ -112,6 +113,13 @@ REST_FRAMEWORK = {
     "DEFAULT_FILTER_BACKENDS": [
         "django_filters.rest_framework.DjangoFilterBackend",
     ],
+    "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
+}
+
+SPECTACULAR_SETTINGS = {
+    "TITLE": "DRF Vocabulary API",
+    "DESCRIPTION": "API for browsing English vocabulary entries by CEFR level and part of speech.",
+    "VERSION": "1.0.0",
 }
 
 # Internationalization
