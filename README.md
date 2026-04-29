@@ -116,6 +116,14 @@ List responses are paginated by default:
 /api/vocabulary/?page=2
 ```
 
+Vocabulary entries can be filtered by CEFR level and part of speech:
+
+```text
+/api/vocabulary/?cefr=A1
+/api/vocabulary/?pos=verb
+/api/vocabulary/?cefr=B1&pos=noun
+```
+
 ## Example Response
 
 ```json

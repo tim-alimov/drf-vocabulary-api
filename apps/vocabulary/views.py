@@ -7,3 +7,4 @@ from .serializers import VocabularySerializer
 class VocabularyViewSet(ModelViewSet):
     queryset = Vocabulary.objects.all()
     serializer_class = VocabularySerializer
+    filterset_fields = ["cefr", "pos"]
