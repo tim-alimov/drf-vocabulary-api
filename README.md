@@ -2,6 +2,8 @@
 
 A small Django REST Framework API for browsing English vocabulary entries stored in PostgreSQL.
 
+> This project is built for learning purposes. It is meant to practice Django REST Framework fundamentals, not to be a production-ready API.
+
 The API exposes vocabulary records with:
 
 - `headword`
